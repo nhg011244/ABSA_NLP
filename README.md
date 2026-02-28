@@ -26,7 +26,6 @@ Sử dụng độ đo **Macro F1-Score** để đánh giá độ chính xác tr�
 | **BiLSTM-Attention** | 0.0161 | 0.6444 |
 | **PhoBERT (Fine-tuned)** | 0.1085 | **0.7013** |
 
-*(Đồ thị so sánh Loss và bảng F1-Score chi tiết từng khía cạnh xem trong file báo cáo hoặc Notebook).*
 
 ## 📁 Cấu Trúc Thư Mục
 
@@ -44,7 +43,7 @@ Sử dụng độ đo **Macro F1-Score** để đánh giá độ chính xác tr�
 ├── test.ipynb              # Notebook chạy đối sánh và in kết quả dự đoán
 ├── requirements.txt        # Danh sách các thư viện cần cài đặt
 └── README.md               # Tài liệu mô tả dự án
-
+```
 
 ## 🚀 Hướng Dẫn Cài Đặt và Sử Dụng
 
@@ -55,11 +54,11 @@ cd ABSA_NLP
 
 Bước 2: Cài đặt thư viện
 Khuyến nghị sử dụng môi trường ảo (Virtual Environment) để tránh xung đột thư viện.
-
+```bash
 pip install -r requirements.txt
 
 Bước 3: Chạy giao diện Web Demo
 Đảm bảo bạn đã có file trọng số phobert_absa_weights.pth nằm trong thư mục saved_models/. Sau đó chạy lệnh:
-
+```bash
 streamlit run app.py
 Trình duyệt sẽ tự động mở trang Web Demo tại địa chỉ: http://localhost:8501
