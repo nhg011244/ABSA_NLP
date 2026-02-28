@@ -1,0 +1,8 @@
+pandas
+matplotlib
+seaborn
+re
+underthesea
+torch
+transformer
+streamlit
