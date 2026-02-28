@@ -49,16 +49,18 @@ Sử dụng độ đo **Macro F1-Score** để đánh giá độ chính xác tr�
 
 **Bước 1: Clone Repository**
 ```bash
-git clone [https://github.com/nhg011244/ABSA_NLP.git](https://github.com/nhg011244/ABSA_NLP.git)
+git clone https://github.com/nhg011244/ABSA_NLP.git
 cd ABSA_NLP
+```
 
 Bước 2: Cài đặt thư viện
 Khuyến nghị sử dụng môi trường ảo (Virtual Environment) để tránh xung đột thư viện.
 ```bash
 pip install -r requirements.txt
-
+```
 Bước 3: Chạy giao diện Web Demo
 Đảm bảo bạn đã có file trọng số phobert_absa_weights.pth nằm trong thư mục saved_models/. Sau đó chạy lệnh:
 ```bash
 streamlit run app.py
+```
 Trình duyệt sẽ tự động mở trang Web Demo tại địa chỉ: http://localhost:8501
