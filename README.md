@@ -45,10 +45,13 @@ Sử dụng độ đo **Macro F1-Score** để đánh giá độ chính xác tr�
 ├── requirements.txt        # Danh sách các thư viện cần cài đặt
 └── README.md               # Tài liệu mô tả dự án
 
-🚀 Hướng Dẫn Cài Đặt và Sử Dụng
-Bước 1: Clone Repository
+
+## 🚀 Hướng Dẫn Cài Đặt và Sử Dụng
+
+**Bước 1: Clone Repository**
 ```bash
 git clone [https://github.com/nhg011244/ABSA_NLP.git](https://github.com/nhg011244/ABSA_NLP.git)
+cd ABSA_NLP
 
 Bước 2: Cài đặt thư viện
 Khuyến nghị sử dụng môi trường ảo (Virtual Environment) để tránh xung đột thư viện.
